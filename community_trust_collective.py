@@ -50,8 +50,8 @@ def load_database():
 
 
 
-st.markdown('''# Community Trust Collective
-The Community Trust Collective (CTC) is a permissioned incident-coordination network for West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
+st.markdown('''## Community Trust Collective
+The Community Trust Collective (CTC) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
 
 CTC exists to help organizers in the West Coast Swing community avoid repeatedly rediscovering the same safeguarding concerns when people move between events or communities. It is designed as a private coordination tool, not a public blacklist or criminal-record database.
 
@@ -63,12 +63,12 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 
 
-# Important Disclaimer
+### Important Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
 The existence of a report in CTC does not establish that an allegation is true and does not constitute a finding of criminal or civil liability. Reports may concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant organizational action.
 
-A CTC match should therefore be treated as an indication that relevant information may exist—not as proof of misconduct or as an automatic basis for exclusion. Organizers are responsible for evaluating information in context and making their own decisions in accordance with their applicable legal and safeguarding responsibilities.
+A CTC match should therefore be treated as an indication that relevant information may exist - not as proof of misconduct or as an automatic basis for exclusion. Organizers are responsible for evaluating information in context and making their own decisions in accordance with their applicable legal and safeguarding responsibilities.
 
 CTC reviews submissions and maintains safeguards intended to reduce fabricated, duplicate, abusive, or otherwise inappropriate submissions. However, no reporting or review system can guarantee that every underlying report is complete or accurate.
 
@@ -88,37 +88,8 @@ Where applicable, CTC processes personal information in accordance with relevant
 
 
 #FAQ
-with st.expander("## Privacy, Safeguarding & Data Protection FAQ"):
-    st.markdown('''### Who can submit a report?
-
-Reports may be submitted by people with relevant firsthand information about an incident or concern.
-
-Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
-
----
-### What happens when someone submits a report?
-
-A submission is reviewed before a report is recorded in CTC.
-
-The purpose of the review is to determine whether the submission is appropriate for inclusion in the coordination system and to reduce inappropriate or abusive use.
-
-A submission does not automatically result in a public listing, exclusion from an event, or other action against the person named in the report.
-
----
-### Does CTC publish allegations?
-
-**No.**
-
-CTC does not operate as a public list of people accused of misconduct.
-
-Access to information is restricted, and information is disclosed on a case-by-case basis for legitimate safeguarding and coordination purposes.
-
-Where appropriate, CTC can help an authorized organizer determine whether a prior report exists and contact the organizer or point of contact responsible for that report.
-
----
-
-### What information does CTC store?
-
+with st.expander("Privacy, Safeguarding & Data Protection FAQ"):
+    st.markdown('''### What information does CTC store?
 CTC follows a **data-minimization approach**.
 
 Following review of a submission, the incident record is intended to contain only information necessary for its coordination purpose, generally:
@@ -134,7 +105,35 @@ Information necessary to operate, secure, and administer the service may also be
 
 ---
 
-### Why does CTC need to retain this information?
+#### Who can submit a report?
+
+Reports may be submitted by people with relevant firsthand information about an incident or concern.
+
+Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
+
+---
+#### What happens when someone submits a report?
+
+A submission is reviewed before a report is recorded in CTC.
+
+The purpose of the review is to determine whether the submission is appropriate for inclusion in the coordination system and to reduce inappropriate or abusive use.
+
+A submission does not automatically result in a public listing, exclusion from an event, or other action against the person named in the report.
+
+---
+#### Does CTC publish allegations?
+
+**No.**
+
+CTC does not operate as a public list of people accused of misconduct.
+
+Access to information is restricted, and information is disclosed on a case-by-case basis for legitimate safeguarding and coordination purposes.
+
+Where appropriate, CTC can help an authorized organizer determine whether a prior report exists and contact the organizer or point of contact responsible for that report.
+
+---
+
+#### Why does CTC need to retain this information?
 
 The purpose is to allow event organizers to determine whether a relevant prior report may exist and, when appropriate, communicate with the organizer who handled the original matter.
 
@@ -144,7 +143,7 @@ CTC therefore focuses on retaining the information necessary to facilitate respo
 
 ---
 
-### Does being in CTC mean someone has been found guilty?
+#### Does being in CTC mean someone has been found guilty?
 
 **No.**
 
@@ -156,7 +155,7 @@ The existence of a report should therefore not be treated as proof of misconduct
 
 ---
 
-### Does CTC determine whether an allegation is true?
+#### Does CTC determine whether an allegation is true?
 
 **No.**
 
@@ -168,7 +167,7 @@ Where additional information is appropriate, authorized organizers may communica
 
 ---
 
-### Does CTC automatically ban people?
+#### Does CTC automatically ban people?
 
 **No.**
 
@@ -180,7 +179,7 @@ Organizers are responsible for considering information in context and making the
 
 ---
 
-### What if a report only resulted in a warning?
+#### What if a report only resulted in a warning?
 
 Not every report represents the same level of concern.
 
@@ -190,7 +189,7 @@ The action taken is therefore important context. A report resulting in a warning
 
 ---
 
-### What safeguards are there against misuse?
+#### What safeguards are there against misuse?
 
 Submissions are reviewed before a report is recorded in the coordination system.
 
@@ -200,7 +199,7 @@ Use of CTC for harassment, retaliation, knowingly false reporting, or purposes u
 
 ---
 
-### Can someone use CTC to blacklist another person?
+#### Can someone use CTC to blacklist another person?
 
 CTC is specifically designed not to function as a public blacklist.
 
@@ -210,7 +209,7 @@ Information is intended to be considered by authorized organizers in the context
 
 ---
 
-### Why isn't everything made public?
+#### Why isn't everything made public?
 
 A public database of allegations could expose individuals to significant privacy and reputational harm, particularly where allegations have not resulted in a legal finding.
 
@@ -218,13 +217,13 @@ CTC instead uses controlled access and case-by-case disclosure so that relevant 
 
 ---
 
-### Who can see information in CTC?
+#### Who can see information in CTC?
 
 CTC uses permissioned access. Information is made available only to users who are authorized to access it for legitimate purposes within the system.
 
 ---
 
-### What happens if someone disputes a report?
+#### What happens if someone disputes a report?
 
 Individuals who believe information about them is inaccurate, incomplete, or inappropriate may raise the issue with CTC.
 
@@ -234,7 +233,7 @@ Because CTC also has privacy responsibilities toward people who provide informat
 
 ---
 
-### Can someone request access to information held about them?
+#### Can someone request access to information held about them?
 
 Where applicable law provides such rights, individuals may request access to personal information held about them and may have additional rights concerning correction, restriction, objection, or deletion.
 
@@ -242,7 +241,7 @@ Such requests are handled in accordance with applicable privacy law, including a
 
 ---
 
-### Can someone request deletion?
+#### Can someone request deletion?
 
 Where applicable law provides a right to deletion, an individual may request that personal information be deleted.
 
@@ -252,7 +251,7 @@ CTC does not intend to retain personal information indefinitely when it is no lo
 
 ---
 
-### What about sensitive information or reports involving sexual misconduct?
+#### What about sensitive information or reports involving sexual misconduct?
 
 CTC recognizes that safeguarding reports can involve highly sensitive information.
 
@@ -266,7 +265,7 @@ At the same time, event organizers may need to make safeguarding decisions witho
 
 ---
 
-### Does CTC assume that every report is accurate?
+#### Does CTC assume that every report is accurate?
 
 **No.**
 
@@ -278,7 +277,7 @@ For that reason, a CTC record should be treated as information requiring appropr
 
 ---
 
-### Is CTC a criminal-record database?
+#### Is CTC a criminal-record database?
 
 **No.**
 
@@ -288,7 +287,7 @@ A CTC record does not establish that an individual has been arrested, charged, p
 
 ---
 
-### Is a CTC record proof that someone is dangerous?
+#### Is a CTC record proof that someone is dangerous?
 
 **No.**
 
@@ -300,7 +299,7 @@ Organizers should consider relevant information in context and make their own de
 
 ---
 
-### How does CTC protect personal information?
+#### How does CTC protect personal information?
 
 CTC seeks to protect personal information through data minimization, restricted access, and controlled disclosure.
 
@@ -328,7 +327,7 @@ Retention and deletion are subject to applicable legal and operational requireme
 
 
 access_code = st.text_input(
-    "Secure Access Code",
+    "Secure Access Token",
     type="password",
 )
 
