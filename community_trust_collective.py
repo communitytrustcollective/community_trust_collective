@@ -10,7 +10,7 @@ from cryptography.fernet import Fernet
 # CONFIGURATION
 # ============================================================
 
-ENCRYPTED_FILE = "data.parquet.enc"
+ENCRYPTED_FILE = "CommunityTrustCollective.parquet.enc"
 
 
 # ============================================================
