@@ -342,19 +342,18 @@ df = load_database()
 
 
 
-st.dataframe(df, use_container_width=True)
 
-
-to_find = st.text_area('Check Attendee List for Matches (one per line)', placeholder='''Name or WSDC number
-Name2 or WSDC number
-Name3 or WSDC number''')
+to_find = st.text_area('''#### Check Attendee List for Matches 
+(one per line)''', placeholder='''Full Name or WSDC number
+Full Name2 or WSDC number
+Full Name3 or WSDC number''')
 
 names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
-st.markdown('''#### Potential Matches''')
-st.caption('''Name matches are not identity verification. Review the available information and use appropriate context before taking any action.''')
+st.markdown('''#### Potential Attendee Matches''')
+st.caption('''***Match results may include false positives.*** Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
