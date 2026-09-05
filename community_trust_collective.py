@@ -48,7 +48,7 @@ def load_database():
     return df
 
 
-st.markdown('## Community Trust Collective')
+st.markdown('## WCS Community Trust Collective')
 
 st.link_button("Submit a report", "https://forms.gle/PAd3saAcoHnLrmeK9", type='primary')
 
