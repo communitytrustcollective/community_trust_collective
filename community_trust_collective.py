@@ -60,7 +60,7 @@ with left:
 with right:
     st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
-st.text()
+st.text('')
 
 st.markdown('''The West Coast Swing Community Trust Collective (CTC) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
 
