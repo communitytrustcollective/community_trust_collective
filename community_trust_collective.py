@@ -352,7 +352,8 @@ Name2 or WSDC number
 Name3 or WSDC number''')
 
 names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
-
+if not names_list:
+    names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
 
 filtered_results_df = (df
