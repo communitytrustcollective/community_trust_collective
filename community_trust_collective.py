@@ -343,7 +343,7 @@ df = load_database()
 
 
 st.markdown('#### Check Attendee List for Matches')
-to_find = st.text_area('Attendee List (one per line)', placeholder='''Full Name or WSDC number
+to_find = st.text_area('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
 Full Name3 or WSDC number''')
 
@@ -356,7 +356,7 @@ st.caption('''***Match results may include false positives.*** Broad or incomple
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
-            | pl.col("WSDC_num").cast(pl.String).str.contains_any(names_list, ascii_case_insensitive=True)
+            | pl.col("WSDC_number").cast(pl.String).str.contains_any(names_list, ascii_case_insensitive=True)
            )
 )
 
