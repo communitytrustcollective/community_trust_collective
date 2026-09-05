@@ -348,7 +348,18 @@ st.dataframe(df, use_container_width=True)
 st.link_button("Request PoC Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
 
 to_find = st.text_area('Input attendee list - one per line', placeholder='''Name or WSDC number
-Name or WSDC number
-Name or WSDC number''')
+Name2 or WSDC number
+Name3 or WSDC number''')
 
+names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
+
+
+
+filtered_results_df = (n_df
+    .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
+            | pl.col("WSDC_num").cast(pl.String).str.contains_any(names_list, ascii_case_insensitive=True)
+           )
+)
+
+#st.dataframe(filtered_results_df, use_container_width=True)
 #attendee list
