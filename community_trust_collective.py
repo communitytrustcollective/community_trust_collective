@@ -342,9 +342,8 @@ df = load_database()
 
 
 
-
-to_find = st.text_area('''#### Check Attendee List for Matches 
-(one per line)''', placeholder='''Full Name or WSDC number
+st.markdown('#### Check Attendee List for Matches')
+to_find = st.text_area('Attendee List (one per line)', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
 Full Name3 or WSDC number''')
 
