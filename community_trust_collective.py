@@ -63,7 +63,7 @@ Submitting a report does not create a public listing, automatically trigger acti
 A CTC record indicates that a report exists. It is not a criminal conviction, legal finding, or determination of guilt. Reports may vary considerably in nature and seriousness, and organizers remain responsible for evaluating information in context and making their own decisions.
 ''')
 
-st.link_button("Request Community Organizer Access", "https://forms.gle/3f6bBRaiBmrmRQGSA")
+st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA")
 
 st.caption('''#### Important Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
