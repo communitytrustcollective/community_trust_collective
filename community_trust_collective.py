@@ -52,13 +52,14 @@ def load_database():
 
 st.markdown('## WCS Community Trust Collective')
 
+st.markdown('''**This is a tool for WCS organizers to check whether there are existing reports about a specific person.**
+
 left, right = st.columns(2)
 with left:
     st.link_button("Submit a report", "https://forms.gle/PAd3saAcoHnLrmeK9", type="primary", use_container_width=True)
 with right:
     st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
-st.markdown('''**This is a tool for WCS organizers to check whether there are existing reports about a specific person.**
 
 The Community Trust Collective (CTC) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
 
