@@ -374,7 +374,7 @@ filtered_results_df = (df
 
 st.dataframe(filtered_results_df, 
 column_config={"Name": st.column_config.Column(width=150), 
-               "WSDC_number": st.column_config.Column(width=60),
+               "WSDC_number": st.column_config.Column(width=70),
                "Reports": st.column_config.Column(width=60),
                "Actions_taken": st.column_config.Column(width=100),
                #"Points_of_contact": st.column_config.Column(width=120),
