@@ -61,10 +61,9 @@ Authorized organizers can use CTC to determine whether prior incident reports ma
 Submitting a report does not create a public listing, automatically trigger action, or determine that an allegation is true. Every submission is reviewed by the CTC review/moderation team before a report is recorded in the system.
 
 A CTC record indicates that a report exists. It is not a criminal conviction, legal finding, or determination of guilt. Reports may vary considerably in nature and seriousness, and organizers remain responsible for evaluating information in context and making their own decisions.
+''')
 
-
-
-#### Important Disclaimer
+st.caption('''#### Important Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
 The existence of a report in CTC does not establish that an allegation is true and does not constitute a finding of criminal or civil liability. Reports may concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant organizational action.
