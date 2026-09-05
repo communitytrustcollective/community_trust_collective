@@ -52,7 +52,11 @@ def load_database():
 
 st.markdown('## WCS Community Trust Collective')
 
-st.link_button("Submit a report", "https://forms.gle/PAd3saAcoHnLrmeK9", type='primary')
+left, right = st.columns(2)
+with left:
+    st.link_button("Submit a report", "https://forms.gle/PAd3saAcoHnLrmeK9", type="primary", use_container_width=True)
+with right:
+    st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
 st.markdown('''**This is a tool for WCS organizers to check whether there are existing reports about a specific person.**
 
@@ -67,7 +71,7 @@ Submitting a report does not create a public listing, automatically trigger acti
 A CTC record indicates that a report exists. It is not a criminal conviction, legal finding, or determination of guilt. Reports may vary considerably in nature and seriousness, and organizers remain responsible for evaluating information in context and making their own decisions.
 ''')
 
-st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA")
+#st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA")
 
 st.caption('''#### Important Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
@@ -354,7 +358,7 @@ to_find = st.text_area('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
 Full Name3 or WSDC number''')
 
-st.button('Search')
+st.button('Search', type="primary")
 
 names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
@@ -377,7 +381,7 @@ column_config={"Name": st.column_config.Column(width=160),
                "WSDC_number": st.column_config.Column(width=100),
                "Reports": st.column_config.Column(width=60),
                "Actions_taken": st.column_config.Column(width=100),
-               "Reporters": st.column_config.Column(width=60),
+               "Reporters": st.column_config.Column(width=70),
                "Report_dates": st.column_config.Column(width=200),
 },
             use_container_width=True)
