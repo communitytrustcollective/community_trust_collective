@@ -51,7 +51,6 @@ def load_database():
 st.markdown('## WCS Community Trust Collective')
 
 st.link_button("Submit a report", "https://forms.gle/PAd3saAcoHnLrmeK9", type='primary')
-st.link_button("Request Community Organizer Access", "")
 
 st.markdown('''The Community Trust Collective (CTC) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
 
@@ -82,7 +81,7 @@ Where applicable, CTC processes personal information in accordance with relevant
 
 
 
-
+st.link_button("Request Community Organizer Access", "")
 
 
 
