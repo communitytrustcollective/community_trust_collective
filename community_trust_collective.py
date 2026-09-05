@@ -345,8 +345,6 @@ df = load_database()
 st.dataframe(df, use_container_width=True)
 
 
-st.link_button("Request PoC Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
-
 to_find = st.text_area('Check Attendee List for Matches (one per line)', placeholder='''Name or WSDC number
 Name2 or WSDC number
 Name3 or WSDC number''')
@@ -355,7 +353,8 @@ names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
-st.markdown('#### Potential Matches')
+st.markdown('''#### Potential Matches''')
+st.caption('''Name matches are not identity verification. Review the available information and use appropriate context before taking any action.'''
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
@@ -364,3 +363,5 @@ filtered_results_df = (df
 )
 
 st.dataframe(filtered_results_df, use_container_width=True)
+
+st.link_button("Request PoC Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
