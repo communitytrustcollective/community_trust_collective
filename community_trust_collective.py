@@ -346,8 +346,9 @@ df = load_database()
 
 
 
-st.markdown('#### Check Attendee List for Matches')
-to_find = st.text_input('', placeholder='''Full Name or WSDC number
+st.markdown('#### Check Someone Before Your Event')
+st.caption('Enter the names or WSDC numbers of people attending your event to see whether any reports may exist.')
+to_find = st.text_area('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
 Full Name3 or WSDC number''')
 
@@ -355,8 +356,11 @@ names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
-st.markdown('''#### Potential Attendee Matches''')
-st.caption('''***Match results may include false positives.*** Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
+st.markdown('''#### People With Relevant Reports''')
+st.caption('''These people matched information in CTC. A match means that relevant information may exist; it does not by itself establish what happened or identify the person with certainty.
+***Match results may include false positives.*** 
+
+Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
@@ -366,4 +370,5 @@ filtered_results_df = (df
 
 st.dataframe(filtered_results_df, use_container_width=True)
 
-st.link_button("Request PoC Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
+st.link_button("Get More Information About a Report", "https://forms.gle/gppbdjb5aYjAzSTk7")
+st.caption('If you need more context about a report, you can request contact information for the person who can provide additional details.')
