@@ -348,7 +348,7 @@ df = load_database()
 
 st.markdown('''# 
 #### Check Someone Before Your Event:''')
-st.caption('Enter the names or WSDC numbers of people attending your event to see whether any reports may exist.')
+st.caption('List the names or WSDC numbers of people attending your event to see whether any reports may exist. (one per line)')
 
 to_find = st.text_area('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
@@ -378,7 +378,7 @@ column_config={"Name": st.column_config.Column(width=130),
                "Reports": st.column_config.Column(width=40),
                "Actions_taken": st.column_config.Column(width=100),
                "Reporters": st.column_config.Column(width=50),
-               #"Report_dates": st.column_config.Column(width=150),
+               "Report_dates": st.column_config.Column(width=150),
 },
             use_container_width=True)
 
