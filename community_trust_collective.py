@@ -373,12 +373,12 @@ filtered_results_df = (df
 )
 
 st.dataframe(filtered_results_df, 
-column_config={"Name": st.column_config.Column(width='medium'), 
-               "WSDC_number": st.column_config.Column(width='medium'),
-               "Reports": st.column_config.Column(width='small'),
-               "Actions_taken": st.column_config.Column(width='medium'),
-               "Points_of_contact": st.column_config.Column(width='medium'),
-               "Report_dates": st.column_config.Column(width='medium'),
+column_config={"Name": st.column_config.Column(width=150), 
+               "WSDC_number": st.column_config.Column(width=200),
+               "Reports": st.column_config.Column(width=60),
+               "Actions_taken": st.column_config.Column(width=100),
+               "Points_of_contact": st.column_config.Column(width=80),
+               "Report_dates": st.column_config.Column(width=150),
 },
             use_container_width=True)
 
