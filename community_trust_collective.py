@@ -345,7 +345,7 @@ df = load_database()
 st.dataframe(df, use_container_width=True)
 
 
-st.link_button("Request PoC Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
+st.link_button("Request Contact Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
 
 
 #attendee list
