@@ -347,7 +347,7 @@ df = load_database()
 
 
 st.markdown('#### Check Attendee List for Matches')
-to_find = st.text_area('', placeholder='''Full Name or WSDC number
+to_find = st.text_input('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
 Full Name3 or WSDC number''')
 
