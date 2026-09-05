@@ -355,7 +355,7 @@ names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 
 
 
-filtered_results_df = (n_df
+filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
             | pl.col("WSDC_num").cast(pl.String).str.contains_any(names_list, ascii_case_insensitive=True)
            )
