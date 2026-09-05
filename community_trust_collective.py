@@ -354,6 +354,8 @@ to_find = st.text_area('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
 Full Name3 or WSDC number''')
 
+st.button('Search')
+
 names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
@@ -364,8 +366,6 @@ st.caption('''These people matched information in CTC. A match means that releva
 ***Match results may include false positives.*** 
 
 Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
-
-st.button('Search')
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
