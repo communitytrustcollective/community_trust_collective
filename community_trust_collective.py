@@ -347,8 +347,8 @@ st.dataframe(df, use_container_width=True)
 
 st.link_button("Request PoC Information", "https://forms.gle/gppbdjb5aYjAzSTk7")
 
-to_find = st.text_area('Input attendee list - one per line', placeholder='''Name/WDC number
-Name/WDC number
-Name/WDC number''')
+to_find = st.text_area('Input attendee list - one per line', placeholder='''Name or WSDC number
+Name or WSDC number
+Name or WSDC number''')
 
 #attendee list
