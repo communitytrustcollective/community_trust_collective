@@ -1,4 +1,5 @@
-import io
+import os
+import tempfile
 
 import polars as pl
 import streamlit as st
@@ -7,20 +8,44 @@ from cryptography.fernet import Fernet
 ENCRYPTED_FILE = "CommunityTrustCollective.parquet.enc"
 
 
-ACCESS_CODES = set(st.secrets["access_codes"])
+ACCESS_CODES = {
+    code.strip()
+    for code in st.secrets["access_codes"]
+}
 
 
 @st.cache_resource
 def load_database():
-    key = st.secrets["ENCRYPTION_KEY"].encode()
-    cipher = Fernet(key)
+    cipher = Fernet(st.secrets["ENCRYPTION_KEY"].encode())
 
+    # Read encrypted file
     with open(ENCRYPTED_FILE, "rb") as f:
-        encrypted_data = f.read()
+        encrypted = f.read()
 
-    decrypted_data = cipher.decrypt(encrypted_data)
+    # Decrypt into one plaintext bytes object
+    decrypted = cipher.decrypt(encrypted)
 
-    return pl.read_parquet(io.BytesIO(decrypted_data))
+    # Encrypted bytes no longer needed
+    del encrypted
+
+    # Put plaintext on disk instead of keeping it in another RAM buffer
+    with tempfile.NamedTemporaryFile(
+        suffix=".parquet",
+        delete=False,
+    ) as temp:
+        temp_path = temp.name
+        temp.write(decrypted)
+
+    # Plaintext bytes no longer needed
+    del decrypted
+
+    try:
+        # Polars reads directly from the temporary file
+        df = pl.read_parquet(temp_path)
+    finally:
+        os.remove(temp_path)
+
+    return df
 
 
 st.title("Community Trust Collective")
@@ -30,8 +55,7 @@ access_code = st.text_input(
     type="password",
 )
 
-if access_code not in ACCESS_CODES:
-    st.error("Invalid access code.")
+if access_code.strip() not in ACCESS_CODES:
     st.stop()
 
 df = load_database()
