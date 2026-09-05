@@ -373,5 +373,6 @@ filtered_results_df = (df
 
 st.dataframe(filtered_results_df, use_container_width=True)
 
+st.markdown('''#''')
 st.link_button("Get More Information About a Report", "https://forms.gle/gppbdjb5aYjAzSTk7")
 st.caption('If you need more context about a report, you can request contact information for the person who can provide additional details.')
