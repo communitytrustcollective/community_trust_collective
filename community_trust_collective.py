@@ -347,7 +347,6 @@ df = load_database()
 
 
 st.markdown('''# 
-# 
 #### Check Someone Before Your Event:''')
 st.caption('Enter the names or WSDC numbers of people attending your event to see whether any reports may exist.')
 
@@ -359,7 +358,8 @@ names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
-st.markdown('''#### People With Relevant Reports:''')
+st.markdown('''#
+#### People With Relevant Reports:''')
 st.caption('''These people matched information in CTC. A match means that relevant information may exist; it does not by itself establish what happened or identify the person with certainty.
 ***Match results may include false positives.*** 
 
