@@ -4,6 +4,8 @@ import tempfile
 import polars as pl
 import streamlit as st
 from cryptography.fernet import Fernet
+st.set_option("client.disableDataExport", True)
+
 
 ENCRYPTED_FILE = "CommunityTrustCollective.parquet.enc"
 
