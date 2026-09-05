@@ -361,7 +361,7 @@ if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
 st.markdown('''#### Results:''')
-st.caption('''These people matched information in CTC. A match means that relevant information may exist; it does not by itself establish what happened or identify the person with certainty.
+st.caption('''These results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
 ***Match results may include false positives.*** 
 
 Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
@@ -372,7 +372,15 @@ filtered_results_df = (df
            )
 )
 
-st.dataframe(filtered_results_df, use_container_width=True)
+st.dataframe(filtered_results_df, 
+column_config={"Name": st.column_config.Column(width='medium'), 
+               "WSDC_number": st.column_config.Column(width='medium'),
+               "Reports": st.column_config.Column(width='small'),
+               "Actions_taken": st.column_config.Column(width='medium'),
+               "Points_of_contact": st.column_config.Column(width='medium'),
+               "Report_dates": st.column_config.Column(width='medium'),
+},
+            use_container_width=True)
 
 st.markdown('''###''')
 st.link_button("Get More Information About a Report", "https://forms.gle/gppbdjb5aYjAzSTk7")
