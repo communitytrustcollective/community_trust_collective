@@ -63,7 +63,7 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 
 
-### Important Disclaimer
+#### Important Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
 The existence of a report in CTC does not establish that an allegation is true and does not constitute a finding of criminal or civil liability. Reports may concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant organizational action.
@@ -89,7 +89,7 @@ Where applicable, CTC processes personal information in accordance with relevant
 
 #FAQ
 with st.expander("Privacy, Safeguarding & Data Protection FAQ"):
-    st.markdown('''### What information does CTC store?
+    st.markdown('''#### What information does CTC store?
 CTC follows a **data-minimization approach**.
 
 Following review of a submission, the incident record is intended to contain only information necessary for its coordination purpose, generally:
