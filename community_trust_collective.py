@@ -358,7 +358,7 @@ names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
-st.markdown('''#
+st.markdown('''###
 #### People With Relevant Reports:''')
 st.caption('''These people matched information in CTC. A match means that relevant information may exist; it does not by itself establish what happened or identify the person with certainty.
 ***Match results may include false positives.*** 
@@ -373,6 +373,6 @@ filtered_results_df = (df
 
 st.dataframe(filtered_results_df, use_container_width=True)
 
-st.markdown('''#''')
+st.markdown('''###''')
 st.link_button("Get More Information About a Report", "https://forms.gle/gppbdjb5aYjAzSTk7")
 st.caption('If you need more context about a report, you can request contact information for the person who can provide additional details.')
