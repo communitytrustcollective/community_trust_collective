@@ -90,7 +90,7 @@ Where applicable, CTC processes personal information in accordance with relevant
 
 #FAQ
 with st.expander("Privacy, Safeguarding & Data Protection FAQ"):
-    st.markdown('''#### What information does CTC store?
+    st.caption('''#### What information does CTC store?
 CTC follows a **data-minimization approach**.
 
 Following review of a submission, the incident record is intended to contain only information necessary for its coordination purpose, generally:
@@ -325,7 +325,7 @@ Retention and deletion are subject to applicable legal and operational requireme
 
 
 
-
+st.link_button("Request Community Organizer Access", "")
 
 access_code = st.text_input(
     "Secure Access Token",
