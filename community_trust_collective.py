@@ -365,6 +365,8 @@ st.caption('''These people matched information in CTC. A match means that releva
 
 Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
+st.button('Search')
+
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
             | pl.col("WSDC_number").cast(pl.String).str.contains_any(names_list, ascii_case_insensitive=True)
