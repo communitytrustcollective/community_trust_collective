@@ -361,5 +361,4 @@ filtered_results_df = (df
            )
 )
 
-#st.dataframe(filtered_results_df, use_container_width=True)
-#attendee list
+st.dataframe(filtered_results_df, use_container_width=True)
