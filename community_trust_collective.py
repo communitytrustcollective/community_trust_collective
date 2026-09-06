@@ -144,6 +144,16 @@ Information necessary to operate, secure, and administer the service may also be
 
 ---
 
+#### Why we keep information limited
+
+Safety reports can contain highly sensitive personal information, and privacy laws vary between countries. Sharing detailed allegations across international borders can create significant legal and privacy risks. Unverified or inaccurate allegations can also cause serious reputational harm and potentially affect someone’s employment, professional opportunities, or livelihood.
+
+To reduce these risks, this system intentionally stores and displays only the minimum information needed to identify a potential safety concern: whether relevant reports exist and how an authorized organizer can contact the community that holds the underlying information.
+
+The system does **not** publish the details or allegations behind a report. Organizers who receive a potential match can contact the original reporting community directly to determine whether further information is appropriate and lawful to share.
+
+---
+
 #### Who can submit a report?
 
 Reports may be submitted by people with relevant firsthand information about an incident or concern.
