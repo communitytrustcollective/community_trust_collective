@@ -79,9 +79,7 @@ The West Coast Swing Community Trust Collective helps organizers identify potent
 
 **Helping communities share safety information**
 
-Due to the sensitive nature of potential allegations in a system like this, it's extremely difficult for it to legally exist across international borders. 
-
-To reduce the legal risk, we've decided to only store and provide minimal information: that reports exist about an individual and contact information for more details.
+Because safety reports can contain sensitive information and privacy laws vary internationally, we minimize what we store. We only indicate that a report exists and provide a way for authorized organizers to request more information.
 
 Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record or match should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
