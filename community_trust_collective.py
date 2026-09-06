@@ -53,6 +53,9 @@ def load_database():
 
 
 
+
+
+
 st.markdown('## WCS Community Trust Collective')
 
 
@@ -375,7 +378,12 @@ df = load_database()
 
 st.text('')
 st.markdown('''#### Query Safety Records:''')
-st.caption('''List the names or WSDC numbers (one per line) to see whether any reports may exist.''')
+st.caption('''List the names or WSDC numbers (one per line) to see whether any reports may exist.
+
+Results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
+***Match results may include false positives.*** 
+
+Broad or incomplete searches can return people who aren't the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
 to_find = st.text_area('', placeholder='''Name or WSDC number
 Name2 or WSDC number
@@ -387,11 +395,6 @@ names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
-st.markdown('''#### Results:''')
-st.caption('''Results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
-***Match results may include false positives.*** 
-
-Broad or incomplete searches can return people who aren't the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
