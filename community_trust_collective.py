@@ -375,8 +375,7 @@ df = load_database()
 
 st.text('')
 st.markdown('''#### Query Safety Records:''')
-st.caption('''List the names or WSDC numbers of people attending your event to see whether any reports may exist. 
-(one per line)''')
+st.caption('''List the names or WSDC numbers (one per line) of people attending your event to see whether any reports may exist.''')
 
 to_find = st.text_area('', placeholder='''Full Name or WSDC number
 Full Name2 or WSDC number
