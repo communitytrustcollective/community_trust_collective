@@ -52,7 +52,7 @@ def load_database():
 
 st.markdown('## WCS Community Trust Collective')
 
-st.markdown('''**This is a tool for WCS organizers to check whether there are existing reports about a specific person.**''')
+st.markdown('''**A tool for WCS organizers to check whether there are existing reports about a specific person.**''')
 
 left, right = st.columns(2)
 with left:
