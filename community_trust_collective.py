@@ -84,8 +84,8 @@ Information in this system is provided for community safety purposes and does no
 
 
 
-
-st.caption('''#### Important Disclaimer
+with st.expander("Privacy, Safeguarding & Data Protection FAQ"):
+    st.caption('''#### Legal Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
 The existence of a report in CTC does not establish that an allegation is true and does not constitute a finding of criminal or civil liability. Reports may concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant organizational action.
