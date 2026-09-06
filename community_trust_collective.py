@@ -50,13 +50,13 @@ def load_database():
     return df
 
 
+
+
+
 st.markdown('## WCS Community Trust Collective')
 
-st.markdown('''**Helping communities share safety information**
 
-Individuals with a history of misconduct may move between geographically separated communities where organizers are unaware of their history. This tool helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
-Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record or match should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
 left, right = st.columns(2)
 with left:
@@ -64,20 +64,24 @@ with left:
 with right:
     st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
+
+
+
+
+
 st.text('')
+st.markdown('''**Helping communities share safety information**
 
-st.markdown('''The West Coast Swing Community Trust Collective (CTC) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
+Individuals with a history of misconduct may move between geographically separated communities where organizers are unaware of their history. The West Coast Swing Community Trust Collective (CTC) helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
-CTC exists to help organizers in the West Coast Swing community avoid repeatedly rediscovering the same safeguarding concerns when people move between events or communities. It is designed as a private coordination tool, not a public blacklist or criminal-record database.
+Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record or match should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
-Authorized organizers can use CTC to determine whether prior incident reports may exist and, where appropriate, contact the organizer or point of contact responsible for the original report. CTC does not publicly publish allegations or automatically disclose the details of reports.
 
-Submitting a report does not create a public listing, automatically trigger action, or determine that an allegation is true. Every submission is reviewed by the CTC review/moderation team before a report is recorded in the system.
 
-A CTC record indicates that a report exists. It is not a criminal conviction, legal finding, or determination of guilt. Reports may vary considerably in nature and seriousness, and organizers remain responsible for evaluating information in context and making their own decisions.
-''')
 
-#st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA")
+
+
+
 
 st.caption('''#### Important Disclaimer
 The Community Trust Collective (CTC) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
@@ -105,7 +109,20 @@ Where applicable, CTC processes personal information in accordance with relevant
 
 #FAQ
 with st.expander("Privacy, Safeguarding & Data Protection FAQ"):
-    st.markdown('''#### What information does CTC store?
+    st.markdown('''#### What is the CTC?
+The West Coast Swing Community Trust Collective (CTC) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
+
+CTC exists to help organizers in the West Coast Swing community avoid repeatedly rediscovering the same safeguarding concerns when people move between events or communities. It is designed as a private coordination tool, not a public blacklist or criminal-record database.
+
+Authorized organizers can use CTC to determine whether prior incident reports may exist and, where appropriate, contact the organizer or point of contact responsible for the original report. CTC does not publicly publish allegations or automatically disclose the details of reports.
+
+Submitting a report does not create a public listing, automatically trigger action, or determine that an allegation is true. Every submission is reviewed by the CTC review/moderation team before a report is recorded in the system.
+
+A CTC record indicates that a report exists. It is not a criminal conviction, legal finding, or determination of guilt. Reports may vary considerably in nature and seriousness, and organizers remain responsible for evaluating information in context and making their own decisions.
+
+---
+
+#### What information does CTC store?
 CTC follows a **data-minimization approach**.
 
 Following review of a submission, the incident record is intended to contain only information necessary for its coordination purpose, generally:
