@@ -377,9 +377,9 @@ st.text('')
 st.markdown('''#### Query Safety Records:''')
 st.caption('''List the names or WSDC numbers (one per line) to see whether any reports may exist.''')
 
-to_find = st.text_area('', placeholder='''Full Name or WSDC number
-Full Name2 or WSDC number
-Full Name3 or WSDC number''')
+to_find = st.text_area('', placeholder='''Name or WSDC number
+Name2 or WSDC number
+Name3 or WSDC number''')
 
 st.button('Search', type="primary")
 
