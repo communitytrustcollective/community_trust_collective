@@ -77,9 +77,9 @@ st.markdown('''**The Problem:** Individuals with a history of misconduct may mov
 
 **Our Solution:** This tool helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
-**Helping communities share safety information**
-
 **Challenges:** International privacy laws make sharing sensitive allegations difficult; we minimize the information stored to reduce legal risk: only whether reports exist and who to contact for more details.
+
+**Helping communities share safety information**
 
 Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
