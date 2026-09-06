@@ -70,11 +70,11 @@ with right:
 
 
 st.text('')
-st.markdown('''**Helping communities share safety information**
-
-Individuals with a history of misconduct may move between geographically separated communities where organizers are unaware of their history. 
+st.markdown('''Individuals with a history of misconduct may move between geographically separated communities where organizers are unaware of their history. 
 
 The West Coast Swing Community Trust Collective (CTC) helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
+
+**Helping communities share safety information**
 
 Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record or match should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
