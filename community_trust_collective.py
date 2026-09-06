@@ -57,7 +57,7 @@ def load_database():
 
 
 st.markdown('## WCS Community Trust Collective')
-
+st.caption('***Helping communities share safety information***')
 
 
 
@@ -79,7 +79,6 @@ st.markdown('''**:gray-background[Problem -]** Individuals with a history of mis
 
 **:gray-background[Challenges -]** International privacy laws make sharing sensitive allegations difficult; we minimize the information stored to reduce legal risk: only whether reports exist and who to contact for more details.
 
-**Helping communities share safety information**
 
 Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
