@@ -410,5 +410,5 @@ column_config={"Name": st.column_config.Column(width=160),
             use_container_width=True)
 
 st.markdown('''###''')
-st.link_button("Get More Information About a Report", "https://forms.gle/gppbdjb5aYjAzSTk7")
+st.link_button("Request More Information About a Report", "https://forms.gle/gppbdjb5aYjAzSTk7")
 st.caption('If you need more context about a report, you can request contact information for additional details.')
