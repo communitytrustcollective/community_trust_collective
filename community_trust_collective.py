@@ -388,10 +388,10 @@ if not names_list:
     names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
 
 st.markdown('''#### Results:''')
-st.caption('''These results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
+st.caption('''Results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
 ***Match results may include false positives.*** 
 
-Broad or incomplete searches can return people who are not the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
+Broad or incomplete searches can return people who aren't the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
 filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
