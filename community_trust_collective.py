@@ -73,9 +73,9 @@ with right:
 
 
 st.text('')
-st.markdown('''**The Problem -** Individuals with a history of misconduct may move between communities to where organizers are unaware of their history. 
+st.markdown('''**Problem -** Individuals with a history of misconduct may move between communities to where organizers are unaware of their history. 
 
-**Our Solution -** This tool helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
+**Solution -** This tool helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
 **Challenges -** International privacy laws make sharing sensitive allegations difficult; we minimize the information stored to reduce legal risk: only whether reports exist and who to contact for more details.
 
