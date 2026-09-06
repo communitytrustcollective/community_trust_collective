@@ -70,9 +70,9 @@ with right:
 
 
 st.text('')
-st.markdown('''Individuals with a history of misconduct may move between communities where organizers are unaware of their history. 
+st.markdown('''Individuals with a history of misconduct may move between communities to where organizers are unaware of their history. 
 
-The West Coast Swing Community Trust Collective (CTC) helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
+The West Coast Swing Community Trust Collective helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
 **Helping communities share safety information**
 
