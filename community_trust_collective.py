@@ -89,7 +89,7 @@ st.caption("Positive feedback helps us know we're on the right track, and constr
 
 
 with st.expander("Legal Disclaimer"):
-    st.caption('''The **Community Trust Collective** (**CTC**) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
+    st.caption('''The West Coast Swing **Community Trust Collective** (**CTC**) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
 The existence of a report in CTC does not establish that an allegation is true and does not constitute a finding of criminal or civil liability. Reports may concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant organizational action.
 
