@@ -395,7 +395,7 @@ df = load_database()
 
 st.text('')
 
-st.text_area('''**Filter Safety Records:**
+to_find = st.text_area('''**Filter Safety Records:**
 
 Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that matches refer to the correct individual.''', placeholder='''Name or WSDC number
 Name2 or WSDC number
