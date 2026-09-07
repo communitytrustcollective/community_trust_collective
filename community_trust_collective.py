@@ -395,12 +395,10 @@ df = load_database()
 
 st.text('')
 st.markdown('''#### Filter Safety Records:''')
-st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to filter to potentially relevant reports.
+st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to filter down to potentially relevant reports.
 
 Results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
-***Match results may include false positives.*** 
-
-Broad or incomplete searches can return people who aren't the individual you are looking for, particularly when names are common or similar. Use the available information to verify that a match refers to the correct individual before taking any action.''')
+***Match results may include false positives.*** Use the available information to verify that a match refers to the correct individual before taking any action.''')
 
 to_find = st.text_area('', placeholder='''Name or WSDC number
 Name2 or WSDC number
