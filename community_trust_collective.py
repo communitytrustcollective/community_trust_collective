@@ -397,9 +397,7 @@ st.text('')
 #st.markdown('''#### Filter Safety Records:''')
 #st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that a match refers to the correct individual before taking any action.''')
 
-to_find = st.text_area('''#### Filter Safety Records:
-
-Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that a match refers to the correct individual before taking any action.''', placeholder='''Name or WSDC number
+to_find = st.text_area(label='#### Filter Safety Records:', '''Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that a match refers to the correct individual before taking any action.''', placeholder='''Name or WSDC number
 Name2 or WSDC number
 Name3 or WSDC number''')
 
