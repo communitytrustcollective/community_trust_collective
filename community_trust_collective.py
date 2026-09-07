@@ -395,7 +395,7 @@ df = load_database()
 
 st.text('')
 #st.markdown('''#### Filter Safety Records:''')
-#st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that a match refers to the correct individual before taking any action.''')
+#st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that a match refers to the correct individual.''')
 
 to_find = st.text_area('''**Filter Safety Records:**
 
