@@ -89,7 +89,7 @@ st.caption("Positive feedback helps us know we're on the right track, and constr
 
 
 with st.expander("Legal Disclaimer"):
-    st.caption('''The Community Trust Collective (**CTC**) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
+    st.caption('''The **Community Trust Collective** (**CTC**) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
 The existence of a report in CTC does not establish that an allegation is true and does not constitute a finding of criminal or civil liability. Reports may concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant organizational action.
 
@@ -115,7 +115,7 @@ Where applicable, CTC processes personal information in accordance with relevant
 #FAQ
 with st.expander("Privacy, Safeguarding & Data Protection FAQ"):
     st.caption('''#### What is the CTC?
-The West Coast Swing Community Trust Collective (**CTC**) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
+The West Coast Swing **Community Trust Collective** (**CTC**) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
 
 CTC exists to help organizers in the West Coast Swing community avoid repeatedly rediscovering the same safeguarding concerns when people move between events or communities. It is designed as a private coordination tool, not a public blacklist or criminal-record database.
 
