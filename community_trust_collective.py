@@ -403,7 +403,7 @@ Paste an attendee list, names, or WSDC numbers (one per line) to filter down to 
 Name2 or WSDC number
 Name3 or WSDC number''')
 
-st.button('Search', type="primary")
+st.button('Filter', type="primary")
 
 names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
