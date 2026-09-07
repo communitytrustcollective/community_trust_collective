@@ -80,7 +80,7 @@ st.markdown('''**:gray-background[Problem -]** Individuals with a history of mis
 **:gray-background[Challenges -]** International privacy laws make sharing sensitive allegations difficult, so we intentionally limit the information we provide to reduce legal and privacy risks.
 
 
-Reports may involve anything from code-of-conduct concerns such as harassment or inappropriate behavior that led to community action, to more serious allegations. Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
+Reports may range from code-of-conduct concerns that led to community action, to more serious allegations. Information in this system is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing. A record should be treated as a reason for organizers to seek additional information and make their own informed decisions. Users are responsible for using and handling information in accordance with applicable laws and privacy requirements.''')
 
 
 
