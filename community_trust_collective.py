@@ -127,6 +127,33 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 ---
 
+#### How it works
+
+**Report → Review → Limit → Connect → Decide**
+
+**1. Report**  
+A community submits a safety or code-of-conduct concern.
+
+**2. Review**  
+Our Care Team reviews the information against established inclusion criteria. We review reports—not people—and do not determine guilt.
+
+**3. Limit**  
+Only the minimum information necessary to identify a potential concern is added to the shared system. Sensitive allegations and personal details are not publicly published.
+
+**4. Connect**  
+When an authorized organizer identifies a potential match, they can contact the community that holds the underlying information.
+
+**5. Decide**  
+The organizer considers the additional context and makes their own informed decision according to their community's policies and applicable requirements.
+
+> **The goal is not to create a blacklist. It is to help interconnected communities avoid safety information becoming isolated simply because someone travels from one community to another.**
+
+### Oversight
+
+The process is supported by a **Care Team**, responsible for reviewing submissions, and an **Independent Audit Team**, responsible for reviewing the consistency, fairness, privacy, and security of the overall process.
+
+---
+
 #### What information does CTC store?
 CTC follows a **data-minimization approach**.
 
