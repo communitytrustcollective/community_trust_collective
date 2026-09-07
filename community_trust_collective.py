@@ -366,6 +366,12 @@ Information is retained only for as long as it is reasonably necessary for its i
 Retention and deletion are subject to applicable legal and operational requirements.
 
 ---
+
+### Why is the data view designed this way?
+
+Dance communities are highly interconnected, and people frequently travel between regions and countries. Limiting information geographically can leave organizers unaware of relevant safety concerns simply because they were reported somewhere else.
+
+***Authorized community organizers need sufficient visibility across communities to identify safety concerns that would otherwise remain geographically siloed.*** To balance this need with privacy, the system limits the amount of information displayed and the way information is presented may evolve as we evaluate privacy, safety, and legal considerations.
 ''')
 
 
