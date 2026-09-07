@@ -394,8 +394,8 @@ df = load_database()
 
 
 st.text('')
-st.markdown('''#### Query Safety Records:''')
-st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to see whether any reports may exist.
+st.markdown('''#### Filter Safety Records:''')
+st.caption('''Paste an attendee list, names, or WSDC numbers (one per line) to filter to potentially relevant reports.
 
 Results mean that relevant information ***may*** exist; it does not by itself establish what happened or identify the person with certainty.
 ***Match results may include false positives.*** 
@@ -410,10 +410,10 @@ st.button('Search', type="primary")
 
 names_list = [name.strip() for name in to_find.splitlines() if name.strip()]
 if not names_list:
-    names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
-
-
-filtered_results_df = (df
+    #names_list = ["__EMPTY_INPUT_NO_RESULTS_FOUND__"]
+    filtered_results_df = df
+else:
+    filtered_results_df = (df
     .filter(pl.col("Name").str.contains_any(names_list, ascii_case_insensitive=True)
             | pl.col("WSDC_number").cast(pl.String).str.contains_any(names_list, ascii_case_insensitive=True)
            )
