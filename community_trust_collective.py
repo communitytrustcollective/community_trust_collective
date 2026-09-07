@@ -424,7 +424,8 @@ st.text('')
 
 to_find = st.text_area('''**Filter Safety Records:**
 
-Paste an attendee list, names, or WSDC numbers (one per line) to filter down to ***potentially*** relevant reports. There may be false positives, please verify that matches refer to the correct individual.''', placeholder='''Name or WSDC number
+Check an attendee list for matches by pasting names or WSDC number (one per line)
+to filter down to ***potentially*** relevant reports. There may be false positives, please verify that matches refer to the correct individual.''', placeholder='''Name or WSDC number
 Name2 or WSDC number
 Name3 or WSDC number''')
 
