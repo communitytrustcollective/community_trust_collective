@@ -84,7 +84,7 @@ Reports may range from code-of-conduct concerns that led to community action, to
 
 
 
-st.link_button('Share Feedback', '')
+st.link_button('Share Feedback', 'https://forms.gle/LMJTYYKUoPixNjn59')
 st.caption("Positive feedback helps us know we're on the right track, and constructive feedback helps us improve.")
 
 
