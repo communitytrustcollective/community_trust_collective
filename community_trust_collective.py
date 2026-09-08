@@ -113,7 +113,7 @@ Where applicable, CTC processes personal information in accordance with relevant
 
 
 #FAQ
-with st.expander("Frequently Asked Questions (FAQ: Privacy, Safeguarding & Data Protection)"):
+with st.expander("FAQ - Privacy, Safeguarding & Data Protection"):
     st.caption('''#### What is the CTC?
 The West Coast Swing **Community Trust Collective** (**CTC**) is a permissioned incident-coordination network for the West Coast Swing community and its event organizers, with controlled matching and case-by-case disclosure.
 
