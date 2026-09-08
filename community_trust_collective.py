@@ -187,6 +187,7 @@ Reports may be submitted by people with relevant firsthand information about an 
 Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
 
 ---
+
 #### What happens when someone submits a report?
 
 A submission is reviewed before a report is recorded in CTC.
@@ -196,6 +197,7 @@ The purpose of the review is to determine whether the submission is appropriate 
 A submission does not automatically result in a public listing, exclusion from an event, or other action against the person named in the report.
 
 ---
+
 #### Does CTC publish allegations?
 
 **No.**
@@ -384,7 +386,7 @@ CTC does not sell personal information.
 
 ---
 
-### How long is information retained?
+#### How long is information retained?
 
 CTC does not intend to retain information indefinitely simply because it was once submitted.
 
@@ -402,7 +404,8 @@ Dance communities are highly interconnected, and people frequently travel betwee
 
 ---
 
-#### How can CTC store information about me if I never gave consent?
+with st.expander("GDPR concerns"):
+    st.caption('''#### How can CTC store information about me if I never gave consent?
 
 **Consent is not the only legal basis for processing personal data under the GDPR.**
 
@@ -414,7 +417,7 @@ This does **not** mean that CTC can collect whatever information it wants. The G
 
 ---
 
-### Why does CTC need to keep information about people who have not consented?
+#### Why does CTC need to keep information about people who have not consented?
 
 Safeguarding information can lose much of its value if it must be deleted simply because the person concerned does not consent to its retention.
 
@@ -424,7 +427,7 @@ CTC therefore uses a limited amount of information for the specific purpose of h
 
 ---
 
-### What information does CTC actually store?
+#### What information does CTC actually store?
 
 CTC is designed to use **data minimization**: information should be limited to what is necessary for the purpose for which it is being processed.
 
@@ -434,7 +437,7 @@ CTC does not need to maintain every piece of information that may have existed i
 
 ---
 
-### Who can see information about me?
+#### Who can see information about me?
 
 CTC is **not a public database**.
 
@@ -446,7 +449,7 @@ This restricted-access approach is part of CTC's effort to limit unnecessary dis
 
 ---
 
-### Does being listed in CTC mean that I did something wrong?
+#### Does being listed in CTC mean that I did something wrong?
 
 **No.**
 
@@ -458,7 +461,7 @@ CTC is a coordination system, not a court or law-enforcement database.
 
 ---
 
-### Can I object to my information being processed?
+#### Can I object to my information being processed?
 
 Yes. GDPR provides data-subject rights that can apply to information held by CTC, including rights relating to access, rectification, erasure, restriction of processing, and objection, subject to the circumstances and applicable legal exceptions.
 
@@ -468,7 +471,7 @@ Requests are therefore considered individually rather than automatically grantin
 
 ---
 
-### Why can't you simply delete my record if I ask?
+#### Why can't you simply delete my record if I ask?
 
 The GDPR's right to erasure is **not absolute**.
 
@@ -480,7 +483,7 @@ Information should only be retained for as long as it is necessary for its legit
 
 ---
 
-### Why don't you publish the reports so everyone can make their own decision?
+#### Why don't you publish the reports so everyone can make their own decision?
 
 Because **privacy and safeguarding are not served by making sensitive allegations publicly searchable**.
 
@@ -490,7 +493,7 @@ Keeping access restricted also reduces unnecessary disclosure of personal inform
 
 ---
 
-### Does CTC assume that every report is accurate?
+#### Does CTC assume that every report is accurate?
 
 **No.**
 
@@ -502,7 +505,7 @@ Organizers remain responsible for evaluating information in context and making t
 
 ---
 
-### Is CTC claiming that GDPR gives it permission to ignore people's privacy rights?
+#### Is CTC claiming that GDPR gives it permission to ignore people's privacy rights?
 
 **No.**
 
@@ -511,7 +514,7 @@ The opposite is the intention.
 The fact that consent may not be required does not mean that GDPR requirements disappear. CTC still needs an appropriate legal basis for processing, a defined purpose, data minimization, appropriate security, appropriate retention, and respect for applicable data-subject rights.
 
 The goal is to balance two legitimate interests: **protecting people participating in the community and protecting the privacy and rights of the individuals whose information is processed.**
-
+''')
 ''')
 
 
