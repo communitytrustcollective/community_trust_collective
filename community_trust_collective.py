@@ -404,8 +404,7 @@ Dance communities are highly interconnected, and people frequently travel betwee
 
 ---
 
-with st.expander("GDPR concerns"):
-    st.caption("""#### How can CTC store information about me if I never gave consent?
+#### How can CTC store information about me if I never gave consent?
 
 **Consent is not the only legal basis for processing personal data under the GDPR.**
 
@@ -514,7 +513,7 @@ The opposite is the intention.
 The fact that consent may not be required does not mean that GDPR requirements disappear. CTC still needs an appropriate legal basis for processing, a defined purpose, data minimization, appropriate security, appropriate retention, and respect for applicable data-subject rights.
 
 The goal is to balance two legitimate interests: **protecting people participating in the community and protecting the privacy and rights of the individuals whose information is processed.**
-""")
+
 ''')
 
 
