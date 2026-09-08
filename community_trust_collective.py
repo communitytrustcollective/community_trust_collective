@@ -399,6 +399,101 @@ Retention and deletion are subject to applicable legal and operational requireme
 Dance communities are highly interconnected, and people frequently travel between regions and countries. Limiting information geographically can leave organizers unaware of relevant safety concerns simply because they were reported somewhere else.
 
 ***Authorized community organizers need sufficient visibility across communities to identify safety concerns that would otherwise remain geographically siloed.*** To balance this need with privacy, the system limits the amount of information displayed and the way information is presented may evolve as we evaluate privacy, safety, and legal considerations.
+
+---
+
+## How can CTC store information about me if I never gave consent?
+
+**Consent is not the only legal basis for processing personal data under the GDPR.**
+
+The GDPR allows personal data to be processed in circumstances where consent has not been given. One potential legal basis is **legitimate interests**, where processing is necessary for a legitimate purpose and the interests or fundamental rights and freedoms of the individual do not override that purpose.
+
+CTC is designed around the legitimate interest of helping protect people participating in the West Coast Swing community and helping organizers respond appropriately to safeguarding concerns.
+
+This does **not** mean that CTC can collect whatever information it wants. The GDPR still requires personal data to be processed lawfully and transparently, collected for specified purposes, limited to what is necessary, and protected against unauthorized access.
+
+### Why does CTC need to keep information about people who have not consented?
+
+Safeguarding information can lose much of its value if it must be deleted simply because the person concerned does not consent to its retention.
+
+For example, if an incident is reported to an organizer and that information is immediately deleted whenever the person concerned objects to its existence, a future organizer may have no way to know that relevant information previously existed.
+
+CTC therefore uses a limited amount of information for the specific purpose of helping organizers identify whether relevant safeguarding information may exist. The purpose is **not to create a public record about people or to label people as dangerous or guilty.**
+
+### What information does CTC actually store?
+
+CTC is designed to use **data minimization**: information should be limited to what is necessary for the purpose for which it is being processed.
+
+The CTC record is intentionally limited rather than attempting to maintain a complete dossier about an individual. The information used for coordination is primarily intended to identify a person, indicate that a report exists, record the date and relevant organizational action, and allow an appropriate point of contact to be identified where necessary.
+
+CTC does not need to maintain every piece of information that may have existed in connection with an underlying incident.
+
+### Who can see information about me?
+
+CTC is **not a public database**.
+
+Access is restricted to authorized users with a legitimate role in West Coast Swing event or community coordination. Information is not intended to be published publicly or made available to everyone in the community.
+
+Access to additional information about a particular report is also controlled separately. In particular, contact information belonging to another person is not automatically disclosed simply because a match exists.
+
+This restricted-access approach is part of CTC's effort to limit unnecessary disclosure of personal information. The GDPR requires appropriate technical and organizational measures to protect personal data against unauthorized or unlawful processing and unauthorized access.
+
+### Does being listed in CTC mean that I did something wrong?
+
+**No.**
+
+The existence of a CTC record means that a report has been submitted and recorded. It does not by itself establish that an allegation is true, that the person committed a crime, or that the person should be excluded from an event.
+
+Reports can concern circumstances of substantially different nature and seriousness, and an organizer's response may range from a warning or conversation to more significant action.
+
+CTC is a coordination system, not a court or law-enforcement database.
+
+### Can I object to my information being processed?
+
+Yes. GDPR provides data-subject rights that can apply to information held by CTC, including rights relating to access, rectification, erasure, restriction of processing, and objection, subject to the circumstances and applicable legal exceptions.
+
+Where processing is based on legitimate interests, an individual generally has a right to object based on their particular situation. Processing may nevertheless continue where there are compelling legitimate grounds that override the individual's interests, rights, and freedoms, or where another applicable GDPR provision permits continued processing.
+
+Requests are therefore considered individually rather than automatically granting or denying every request.
+
+### Why can't you simply delete my record if I ask?
+
+The GDPR's right to erasure is **not absolute**.
+
+Whether information can be deleted depends on the circumstances, including the legal basis for processing and whether there are legitimate grounds for continuing to retain the information.
+
+For a safeguarding system, deleting relevant information solely because the person concerned objects could undermine the very purpose for which the information is being retained. At the same time, CTC does not treat indefinite retention as automatically justified.
+
+Information should only be retained for as long as it is necessary for its legitimate purpose, consistent with the GDPR's principle of storage limitation.
+
+### Why don't you publish the reports so everyone can make their own decision?
+
+Because **privacy and safeguarding are not served by making sensitive allegations publicly searchable**.
+
+CTC is intended to provide relevant information to people who have a legitimate need for it, rather than create a public blacklist.
+
+Keeping access restricted also reduces unnecessary disclosure of personal information and limits the potential impact on both the person named in a report and the people who provided information about an incident.
+
+### Does CTC assume that every report is accurate?
+
+No.
+
+CTC does not represent that every underlying report is complete or accurate. Reports may be incomplete, disputed, mistaken, or based on information that requires further context.
+
+That is why a CTC match is an indication that **relevant information may exist**, rather than a determination that misconduct occurred.
+
+Organizers remain responsible for evaluating information in context and making their own decisions.
+
+### Is CTC claiming that GDPR gives it permission to ignore people's privacy rights?
+
+**No.**
+
+The opposite is the intention.
+
+The fact that consent may not be required does not mean that GDPR requirements disappear. CTC still needs an appropriate legal basis for processing, a defined purpose, data minimization, appropriate security, appropriate retention, and respect for applicable data-subject rights.
+
+The goal is to balance two legitimate interests: **protecting people participating in the community and protecting the privacy and rights of the individuals whose information is processed.**
+
 ''')
 
 
