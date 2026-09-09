@@ -404,7 +404,7 @@ Dance communities are highly interconnected, and people frequently travel betwee
 
 ---
 
-# For People Covered by the GDPR
+# For Those Covered by GDPR
 
 #### How can CTC store information about me if I never gave consent?
 
