@@ -68,7 +68,7 @@ with right:
     st.link_button("Request Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
 
-
+st.caption("Anyone in the WCS community can submit a report. You do not need to be an event organizer or have access to CTC's records.")
 
 
 
