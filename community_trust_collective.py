@@ -127,6 +127,24 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 ---
 
+#### An extremely difficult tradeoff
+
+This is an imperfect system, which chooses a deliberate tradeoff. If CTC only recorded information that it could completely verify, it would often end up in the same position as individual events: unable to establish exactly what happened, and therefore unable to record anything.
+
+Perfect certainty of each report sounds attractive, but requiring it would mean losing information that may be important for identifying repeated patterns.
+
+CTC cannot reliably determine, in every case, which person is telling the truth. If we required a report to be fully proven before recording it, many legitimate concerns would never be recorded because the information needed to establish exactly what happened often does not exist.
+
+We perform basic review before recording a report. We look at whether the report is reasonably credible and whether reported administrative actions can be verified where possible. In some cases, we may contact people involved to clarify or verify information. When there is a dispute, we may record information from both sides rather than choosing a winner.
+
+This means that, in some cases, a retaliatory or inaccurate report may be recorded. **We accept that risk because we believe the alternative, discarding potentially legitimate reports whenever they cannot be fully proven, can create a greater safety risk.**
+
+The value comes from giving authorized organizers more information to consider. If someone repeatedly causes problems across different communities, multiple reports can provide useful context that individual events might otherwise never see. At the same time, a report is not proof that misconduct occurred, and organizers must consider the information in context.
+
+**It is an imperfect tradeoff. We cannot guarantee that every report is correct, but we believe that preserving potentially important information, while limiting what is recorded and who can access it, is preferable to having no information at all.** We will continue to improve the review process as we learn from its use.
+
+---
+
 #### How it works
 
 **Report → Review → Limit → Connect → Decide**
