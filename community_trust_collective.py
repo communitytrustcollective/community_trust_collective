@@ -80,7 +80,7 @@ st.markdown('''**:gray-background[Problem -]** Individuals with a history of mis
 **:gray-background[Challenges -]** International privacy laws make sharing sensitive allegations difficult, so we intentionally limit the information we provide to reduce legal and privacy risks.
 
 
-Reports may range from code-of-conduct concerns that led to community action, to more serious allegations. But in the case of even seemingly minor sexual harassment - such as unwanted sexual comments or  advances - **it can be important to report, because multiple reports may reveal a pattern of behavior**. Information is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing; organizers should use it as a reason to seek additional information and make their own informed decisions.''')
+Reports may range from code-of-conduct concerns that led to community action, to more serious allegations. But in the case of even seemingly minor sexual harassment - such as unwanted sexual comments or  advances - **it can be important to report as multiple reports may reveal a pattern of behavior**. Information is provided for community safety purposes and does not constitute a finding of guilt or wrongdoing; organizers should use it as a reason to seek additional information and make their own informed decisions.''')
 
 
 
