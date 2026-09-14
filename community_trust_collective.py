@@ -73,7 +73,7 @@ with right:
 
 
 st.text('')
-st.markdown('''**:gray-background[Problem -]** Individuals with a history of misconduct may move between communities to where organizers are unaware of their history. 
+st.markdown('''**:gray-background[Problem -]** Individuals with a history of misconduct may move between global communities to where organizers are unaware of their history. 
 
 **:gray-background[Solution -]** This tool helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
@@ -127,6 +127,20 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 ---
 
+#### What should be reported?
+
+We aim to focus the CTC system on concerns that are significant enough to warrant global community attention. Serious incidents, including sexual assault, should be reported even when they are isolated. For less serious concerns, we generally look for situations where the behavior has been brought to the attention of event organizers but remains unresolved, particularly when there are repeated incidents or an ongoing pattern of violating community or venue standards.
+
+---
+
+#### Who can submit a report?
+
+Reports may be submitted by people with relevant firsthand information about an incident or concern.
+
+Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
+
+---
+
 #### An extremely difficult tradeoff
 
 This is an imperfect system, which chooses a deliberate tradeoff. If CTC only recorded information that it could completely verify, it would often end up in the same position as individual events: unable to establish exactly what happened, and therefore unable to record anything.
@@ -168,12 +182,12 @@ The organizer considers the additional context and makes their own informed deci
 
 #### Oversight
 
-The process is supported by a **Care Team**, responsible for reviewing submissions, and an **Independent Audit Team**, responsible for reviewing the consistency, fairness, privacy, and security of the overall process.
+The process is supported by a Care Team, responsible for reviewing submissions, and an Independent Audit Team, responsible for reviewing the consistency, fairness, privacy, and security of the overall process.
 
 ---
 
 #### What information does CTC store?
-CTC follows a **data-minimization approach**.
+CTC follows a data-minimization approach.
 
 Following review of a submission, the incident record is intended to contain only information necessary for its coordination purpose, generally:
 
@@ -195,14 +209,6 @@ Safety reports can contain highly sensitive personal information, and privacy la
 To reduce these risks, this system intentionally stores and displays only the minimum information needed to identify a potential safety concern: whether relevant reports exist and how an authorized organizer can contact the community that holds the underlying information.
 
 The system does **not** publish the details or allegations behind a report. Organizers who receive a potential match can contact the original reporting community directly to determine whether further information is appropriate and lawful to share.
-
----
-
-#### Who can submit a report?
-
-Reports may be submitted by people with relevant firsthand information about an incident or concern.
-
-Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
 
 ---
 
