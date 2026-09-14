@@ -143,6 +143,20 @@ Submitting a report does not create a public listing, automatically trigger acti
 
 ---
 
+#### Should I submit a report?
+
+If you're unsure whether something was serious, it can still be helpful to document it. Sometimes it's difficult to tell whether someone’s behavior was simply a strange or uncomfortable interaction, or part of a larger pattern.
+
+That's why we offer two options:
+
+**Document now, decide later** allows you to record what happened without asking for it to be reviewed or used at this time. You can choose to move forward with it later.
+
+**Submit for review** asks the Care Team to review the concern for potential inclusion in the CTC system.
+
+When in doubt, it's often better to document what happened and decide later.
+
+---
+
 #### An extremely difficult tradeoff
 
 This is an imperfect system, which chooses a deliberate tradeoff. If CTC only recorded information that it could completely verify, it would often end up in the same position as individual events: unable to establish exactly what happened, and therefore unable to record anything.
