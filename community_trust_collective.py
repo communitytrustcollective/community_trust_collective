@@ -149,9 +149,9 @@ If you're unsure whether something was serious, it can still be helpful to docum
 
 That's why we offer two options:
 
-**Document now, decide later** allows you to record what happened without asking for it to be reviewed or used at this time. You can choose to move forward with it later.
+1. **Document now, decide later** allows you to record what happened without asking for it to be reviewed or used at this time. You can choose to move forward with it later.
 
-**Submit for review** asks the Care Team to review the concern for potential inclusion in the CTC system.
+2. **Submit for review** asks the Care Team to review the concern for potential inclusion in the CTC system.
 
 When in doubt, it's often better to document what happened and decide later.
 
