@@ -129,7 +129,7 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 #### What should be reported?
 
-We aim to focus the CTC system on concerns that are significant enough to warrant global community attention. Serious incidents - including sexual assault, harassment, discriminatory or prejudicial behavior, or other serious violations of community standards - should be reported even when they are isolated.
+We aim to focus the CTC system on concerns that are significant enough to warrant global community attention. Serious incidents - including sexual assault, harassment, discriminatory or prejudicial behavior, or other serious violations of community standards - should be reported even when they are isolated, particularly when they involve someone in a position of trust or authority.
 
 For concerns that may be less significant on their own, we are particularly interested when they have been brought to event organizers and remain unresolved, or when multiple incidents indicate a repeated pattern of behavior or violations of community or venue standards.
 
