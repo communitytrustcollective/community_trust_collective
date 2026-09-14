@@ -157,7 +157,7 @@ This means that, in some cases, a retaliatory or inaccurate report may be record
 
 The value comes from giving authorized organizers more information to consider. If someone repeatedly causes problems across different communities, multiple reports can provide useful context that individual events might otherwise never see. At the same time, a report is not proof that misconduct occurred, and organizers must consider the information in context.
 
-**It is an imperfect tradeoff. We cannot guarantee that every report is correct, but we believe that preserving potentially important information, while limiting what is recorded and who can access it, is preferable to having no information at all.** We will continue to improve the review process as we learn from its use.
+It is an imperfect tradeoff. **We cannot guarantee that every report is correct, but we believe that preserving potentially important information, while limiting what is recorded and who can access it, is preferable to having no information at all.** We will continue to improve the review process as we learn from its use.
 
 ---
 
