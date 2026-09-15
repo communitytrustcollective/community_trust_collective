@@ -137,7 +137,7 @@ For concerns that may be less significant on their own, we are particularly inte
 
 #### Who can submit a report?
 
-Reports may be submitted by people with relevant firsthand information about an incident or concern.
+Reports may be submitted by people with relevant firsthand information, including those directly affected or organizers who have taken action.
 
 Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
 
