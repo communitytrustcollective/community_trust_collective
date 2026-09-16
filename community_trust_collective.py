@@ -63,7 +63,7 @@ st.caption('***Helping communities share safety information***')
 
 left, right = st.columns(2)
 with left:
-    st.link_button("Submit a report", "https://forms.gle/PAd3saAcoHnLrmeK9", type="primary", use_container_width=True)
+    st.link_button("Report an Incident", "https://forms.gle/PAd3saAcoHnLrmeK9", type="primary", use_container_width=True)
 with right:
     st.link_button("Organizer Access Request", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
@@ -129,7 +129,7 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 #### What should be reported?
 
-We aim to focus the CTC system on concerns that are significant enough to warrant global community attention. Serious incidents - including sexual assault, harassment, discriminatory or prejudicial behavior, or other serious violations of community standards - should be reported even when they are isolated, particularly when they involve someone in a position of trust or authority.
+We aim to focus ths system on concerns that are significant enough to warrant global community attention. Serious incidents - including sexual assault, harassment, discriminatory or prejudicial behavior, or other serious violations of community standards - should be reported even when they are isolated, particularly when they involve someone in a position of trust or authority.
 
 For concerns that may be less significant on their own, we are particularly interested when they have been brought to event organizers and remain unresolved, or when multiple incidents indicate a repeated pattern of behavior or violations of community or venue standards.
 
