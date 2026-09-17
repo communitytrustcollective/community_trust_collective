@@ -75,7 +75,7 @@ with right:
 st.text('')
 st.markdown('''**:gray-background[Problem -]** Individuals with a history of misconduct may move between global communities to where organizers are unaware of their history. 
 
-**:gray-background[Solution -]** This tool helps organizers identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
+**:gray-background[Solution -]** This allows even local community leaders to identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, allows them to contact the original community for additional context.
 
 **:gray-background[Challenges -]** International privacy laws make sharing sensitive allegations difficult, so we intentionally limit the information we provide to reduce legal and privacy risks.
 
@@ -124,6 +124,12 @@ Authorized organizers can use CTC to determine whether prior incident reports ma
 Submitting a report does not create a public listing, automatically trigger action, or determine that an allegation is true. Every submission is reviewed by the CTC review/moderation team before a report is recorded in the system.
 
 A CTC record indicates that a report exists. It is not a criminal conviction, legal finding, or determination of guilt. Reports may vary considerably in nature and seriousness, and organizers remain responsible for evaluating information in context and making their own decisions.
+
+---
+
+#### Who can request access?
+
+Access is available to community leaders and organizers with a legitimate community-safety role, including those running local socials and smaller events - not just large competitions or festivals. Because the information cannot be made public, access is limited to trusted community members who need it to help keep their communities safe. We don't want to restrict access to major events, since people move between local communities too.
 
 ---
 
@@ -331,12 +337,6 @@ Information is intended to be considered by authorized organizers in the context
 A public database of allegations could expose individuals to significant privacy and reputational harm, particularly where allegations have not resulted in a legal finding.
 
 CTC instead uses controlled access and case-by-case disclosure so that relevant organizers can coordinate without creating a publicly searchable list of allegations.
-
----
-
-#### Who can see information in CTC?
-
-CTC uses permissioned access. Information is made available only to users who are authorized to access it for legitimate purposes within the system.
 
 ---
 
