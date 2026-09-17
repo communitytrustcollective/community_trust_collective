@@ -129,15 +129,7 @@ A CTC record indicates that a report exists. It is not a criminal conviction, le
 
 #### Who can request access?
 
-Access is available to community leaders and organizers with a legitimate community-safety role, including those running local socials and smaller events - not just large competitions or festivals. Because the information cannot be made public, access is limited to trusted community members who need it to help keep their communities safe. We don't want to restrict access to major events, since people move between local communities too.
-
----
-
-#### What should be reported?
-
-We aim to focus ths system on concerns that are significant enough to warrant global community attention. Serious incidents - including sexual assault, harassment, discriminatory or prejudicial behavior, or other serious violations of community standards - should be reported even when they are isolated, particularly when they involve someone in a position of trust or authority.
-
-For concerns that may be less significant on their own, we are particularly interested when they have been brought to event organizers and remain unresolved, or when multiple incidents indicate a repeated pattern of behavior or violations of community or venue standards.
+Access is available to even local community leaders and organizers with a legitimate community-safety role. Because the information cannot be made public, access is limited to trusted community members who need it to help keep their communities safe. We don't want to restrict access to major events, since people move between local communities too.
 
 ---
 
@@ -146,6 +138,14 @@ For concerns that may be less significant on their own, we are particularly inte
 Reports may be submitted by people with relevant firsthand information, including those directly affected or organizers who have taken action.
 
 Submitting a report does not create a public listing, automatically trigger action, or establish that an allegation is true. Submissions are reviewed before being recorded in the CTC coordination system.
+
+---
+
+#### What should be reported?
+
+We aim to focus this system on concerns that are significant enough to warrant global community attention. Serious incidents - including sexual assault, harassment, discriminatory or prejudicial behavior, or other serious violations of community standards - should be reported even when they are isolated, particularly when they involve someone in a position of trust or authority.
+
+For concerns that may be less significant on their own, we are particularly interested when they have been brought to event organizers and remain unresolved, or when multiple incidents indicate a repeated pattern of behavior or violations of community or venue standards.
 
 ---
 
