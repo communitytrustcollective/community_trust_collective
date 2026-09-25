@@ -56,7 +56,7 @@ def load_database():
 
 
 
-st.markdown('## WCS Community Trust Collective')
+st.markdown('## Community Trust Collective')
 st.caption('***Helping communities share safety information***')
 
 
@@ -151,13 +151,11 @@ For concerns that may be less significant on their own, we are particularly inte
 
 #### Should I submit a report?
 
-If you're unsure whether something was serious, it can still be helpful to document it. Sometimes it's difficult to tell whether someone’s behavior was simply a strange or uncomfortable interaction, or part of a larger pattern.
-
-That's why we offer two options:
+If you're unsure whether something was serious, it can still be helpful to document it. Sometimes it's difficult to tell whether someone’s behavior was simply a strange or uncomfortable interaction, or part of a larger pattern. We offer two options:
 
 1. **Document now, decide later:** allows you to record what happened without asking for it to be reviewed or used at this time. You can choose to move forward with it later.
 
-2. **Submit for review:** asks the Care Team to review the concern for potential inclusion in the CTC system.
+2. **Submit for review:** asks our Care Team to review the concern for potential inclusion in the CTC system.
 
 When in doubt, it's often better to document what happened and decide later.
 
