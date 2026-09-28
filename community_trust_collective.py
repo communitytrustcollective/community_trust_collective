@@ -69,8 +69,6 @@ with right:
 
 st.info(
     """
-    **Community feedback**
-
     We see the comments and feedback in WDOTD. We are reading them and
     taking them into account as we develop this system.
 
