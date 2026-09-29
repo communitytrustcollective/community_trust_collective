@@ -103,7 +103,7 @@ Our small team currently consists of members across the US and multiple European
 
 We recognize that people with broad experience in the community can provide valuable context and insight into situations that less-experienced dancers may not be aware of. We try to balance that with members who are not so deeply entrenched in the scene that existing relationships could affect their impartiality. We aim to build diversity and multiple perspectives into the reviewing and voting process.
 
-The system is also designed to be simple enough for another person or group to operate if a conflict of interest arises. Administrative access and procedures are in place to address potential conflicts or misuse of the system.
+This site/system is designed to be simple enough for another person or group to operate if a conflict of interest arises. Administrative access and procedures are in place to address potential conflicts or misuse of the system.
 ''')
 
 
@@ -606,7 +606,7 @@ if access_code.strip() not in ACCESS_CODES:
 column_config={"Name": st.column_config.Column(width=100), 
                "WSDC_number": st.column_config.Column(width=100, alignment="center"),
                "Reports": st.column_config.Column(width=60, alignment="center"),
-               "Actions_taken": st.column_config.Column(width=100),
+               "Actions_recorded": st.column_config.Column(width=100),
                "Points_of_contact": st.column_config.Column(width=120, alignment="center"),
                "Report_dates": st.column_config.Column(width=200),
 },
@@ -644,7 +644,7 @@ st.dataframe(filtered_results_df,
 column_config={"Name": st.column_config.Column(width=160), 
                "WSDC_number": st.column_config.Column(width=100, alignment="center"),
                "Reports": st.column_config.Column(width=60, alignment="center"),
-               "Actions_taken": st.column_config.Column(width=100),
+               "Actions_recorded": st.column_config.Column(width=100),
                "Points_of_contact": st.column_config.Column(width=120, alignment="center"),
                "Report_dates": st.column_config.Column(width=200),
 },
