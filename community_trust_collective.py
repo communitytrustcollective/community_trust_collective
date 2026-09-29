@@ -205,10 +205,10 @@ It is an imperfect tradeoff. **We cannot guarantee that every report is correct,
 A member/community submits a safety or code-of-conduct concern.
 
 **2. Review**  
-Our Care Team reviews the information against established inclusion criteria. We review reports, not people, and do not determine guilt.
+Our Care Team reviews the submitted report information, and votes to include the record in the system.
 
 **3. Limit**  
-Only the minimum information necessary to identify a potential concern is added to the shared system. Sensitive allegations and personal details are not publicly published.
+Only the minimum information necessary to identify a potential concern is added to the shared system. Sensitive allegations and personal details are not publicly published, and are deleted following review.
 
 **4. Connect**  
 When an authorized organizer identifies a potential match, they can contact the community that holds the underlying information.
