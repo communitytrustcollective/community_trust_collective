@@ -67,19 +67,9 @@ with left:
 with right:
     st.link_button("Organizer Access Request", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
-st.info(
-    """
-    We see the comments and feedback in WDOTD. We are reading them and
-    taking them into account as we develop this system.
-
-    This is a work in progress. We are trying to balance the need for
-    communities to share relevant safety information with privacy,
-    fairness, accuracy, and the rights of the people involved.
-
-    We expect the system and its policies to change as we learn more.
-    Your feedback helps us identify problems, improve the process, and
-    make better decisions about how this tool should work.
-    """
+st.info("""
+We see the comments and feedback in WDOTD. We are taking them into account as we work to develop this system. 
+"""
 )
 
 
