@@ -240,6 +240,12 @@ Information necessary to operate, secure, and administer the service may also be
 
 ---
 
+#### How long is submitted information retained?
+
+Submitted report information is reviewed and voted on by the care team. After the review is complete, the supplied information is deleted. Only the limited information necessary for the system is retained.
+
+---
+
 #### Why we keep information limited
 
 Safety reports can contain highly sensitive personal information, and privacy laws vary between countries. Sharing detailed allegations across international borders can create significant legal and privacy risks. Unverified or inaccurate allegations can also cause serious reputational harm and potentially affect someone’s employment, professional opportunities, or livelihood.
