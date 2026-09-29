@@ -68,7 +68,7 @@ with right:
     st.link_button("Organizer Access Request", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
 st.info("""
-We see the comments and feedback in WDOTD. We are taking them into account as we work to develop this system. 
+We see the comments and feedback in WDOTD. We are taking them into account as we work to develop this system. We recognize that there are many valid concerns about how this should work, and we welcome constructive ideas and assistance in making the system better.
 """
 )
 
