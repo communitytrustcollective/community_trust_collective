@@ -608,7 +608,7 @@ column_config={"Name": st.column_config.Column(width=100),
                "Reports": st.column_config.Column(width=60, alignment="center"),
                "Actions_recorded": st.column_config.Column(width=100),
                "Points_of_contact": st.column_config.Column(width=120, alignment="center"),
-               "Report_dates": st.column_config.Column(width=200),
+               "Report_years": st.column_config.Column(width=200),
 },
             use_container_width=True)
 
@@ -646,7 +646,7 @@ column_config={"Name": st.column_config.Column(width=160),
                "Reports": st.column_config.Column(width=60, alignment="center"),
                "Actions_recorded": st.column_config.Column(width=100),
                "Points_of_contact": st.column_config.Column(width=120, alignment="center"),
-               "Report_dates": st.column_config.Column(width=200),
+               "Report_years": st.column_config.Column(width=200),
 },
             use_container_width=True)
 
