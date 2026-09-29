@@ -180,6 +180,7 @@ When in doubt, it's often better to document what happened and decide later.
 
 **TL;DR:** In a he-said/she-said situation, we think it is more useful to record both reports rather than neither.
 
+
 This is an imperfect system, which chooses a deliberate tradeoff. If CTC only recorded information that it could completely verify, it would often end up in the same position as individual events: unable to establish exactly what happened, and therefore unable to record anything.
 
 Perfect certainty of each report sounds attractive, but requiring it would mean losing information that may be important for identifying repeated patterns.
