@@ -96,7 +96,7 @@ st.caption("Positive feedback helps us know we're on the right track, and constr
 with st.expander("About Us"):
     st.caption('''**Who's behind the scenes? And how do I know this tool isn't being used to protect or cover for its creators?**
 
-Our growing team consists of members across the US and Europe, with a range of WSDC skill levels and levels of community involvement.
+Our growing team consists of members across the US and multiple European communities, with a range of WSDC skill levels and levels of community involvement.
 
 We recognize that people with broad experience in the community can provide valuable context and insight into situations that less-experienced dancers may not be aware of. We try to balance that with members who are not so deeply entrenched in the scene that existing relationships could affect their impartiality. We aim to build diversity and multiple perspectives into the reviewing and voting process.
 
