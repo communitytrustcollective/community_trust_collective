@@ -93,6 +93,21 @@ st.link_button('Contact/Feedback', 'https://forms.gle/LMJTYYKUoPixNjn59')
 st.caption("Positive feedback helps us know we're on the right track, and constructive feedback helps us improve.")
 
 
+with st.expander("About Us"):
+    st.caption('''**Who's behind the scenes? And how do I know this tool isn't being used to protect or cover for its creators?**
+
+Our growing team consists of members across the US and Europe, with a range of WSDC skill levels and levels of community involvement.
+
+We recognize that people with broad experience in the community can provide valuable context and insight into situations that less-experienced dancers may not be aware of. We try to balance that with members who are not so deeply entrenched in the scene that existing relationships could affect their impartiality. We aim to build diversity and multiple perspectives into the reviewing and voting process.
+
+The system is also designed to be simple enough for another person or group to operate if a conflict of interest arises. Administrative access and procedures are in place to address potential conflicts or misuse of the system.
+''')
+
+
+
+
+
+
 with st.expander("Legal Disclaimer"):
     st.caption('''The West Coast Swing **Community Trust Collective** (**CTC**) is a private safeguarding and coordination system. It is not a court, law-enforcement database, criminal-record database, investigative agency, or adjudicative body.
 
@@ -106,8 +121,6 @@ CTC is designed around data minimization, restricted access, and controlled disc
 
 Where applicable, CTC processes personal information in accordance with relevant data-protection and privacy requirements, including the GDPR and applicable U.S. privacy laws.
 ''')
-
-
 
 
 
