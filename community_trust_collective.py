@@ -57,7 +57,7 @@ def load_database():
 
 
 st.markdown('## Community Trust Collective')
-st.caption('Helping **22** communities share safety information')
+st.caption('Helping ***22*** communities share safety information')
 
 
 
