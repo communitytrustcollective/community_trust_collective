@@ -57,7 +57,7 @@ def load_database():
 
 
 st.markdown('## Community Trust Collective')
-st.caption('***Helping communities share safety information (Community Access: 🇺🇸 15 · 🇬🇧 1 · 🇨🇦 4 · 🇩🇪 1)***')
+st.caption('***Helping communities share safety information (Community Access: 🇺🇸 17 · 🇬🇧 1 · 🇨🇦 4 · 🇩🇪 1)***')
 
 
 left, right = st.columns(2)
