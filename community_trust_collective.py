@@ -66,8 +66,7 @@ with left:
 with right:
     st.link_button("Get Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
-# st.info("""
-We see the comments and feedback in WDOTD and are taking them into account as we work to develop this system. We recognize that there are many valid concerns, and this system is limited by our current time, resources, and technical knowledge. Absent a better option, this is our best attempt at a practical solution until a more robust solution becomes available. We welcome ideas and assistance to help make it better.""")
+# st.info("""We see the comments and feedback in WDOTD and are taking them into account as we work to develop this system. We recognize that there are many valid concerns, and this system is limited by our current time, resources, and technical knowledge. Absent a better option, this is our best attempt at a practical solution until a more robust solution becomes available. We welcome ideas and assistance to help make it better.""")
 
 
 #st.caption("Anyone in the WCS community can submit a report. You do not need to be an event organizer or have access to CTC's records. Submissions are reviewed before being recorded, and submitting a report does not automatically result in action.")
