@@ -64,12 +64,11 @@ left, right = st.columns(2)
 with left:
     st.link_button("Report an Incident", "https://forms.gle/PAd3saAcoHnLrmeK9", type="primary", use_container_width=True)
 with right:
-    st.link_button("Organizer Access Request", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
+    st.link_button("Get Access", "https://forms.gle/3f6bBRaiBmrmRQGSA", type="primary", use_container_width=True)
 
-st.info("""
-We see the comments and feedback in WDOTD and are taking them into account as we work to develop this system. We recognize that there are many valid concerns, and this system is limited by our current time, resources, and technical knowledge. This is our best attempt at a practical solution until a more robust solution becomes available. We welcome ideas and assistance to help make it better.
-"""
-)
+# st.info("""
+We see the comments and feedback in WDOTD and are taking them into account as we work to develop this system. We recognize that there are many valid concerns, and this system is limited by our current time, resources, and technical knowledge. Absent a better option, this is our best attempt at a practical solution until a more robust solution becomes available. We welcome ideas and assistance to help make it better.
+""")
 
 
 #st.caption("Anyone in the WCS community can submit a report. You do not need to be an event organizer or have access to CTC's records. Submissions are reviewed before being recorded, and submitting a report does not automatically result in action.")
@@ -79,7 +78,7 @@ We see the comments and feedback in WDOTD and are taking them into account as we
 st.text('')
 st.markdown('''**:gray-background[Problem -]** Individuals with a history of misconduct may move between global communities that are unaware of their history, and organizers lack the cross-community tools needed to track misconduct history.
 
-**:gray-background[Solution -]** Absent a better option, this is our attempt to give local community leaders a way to identify potential safety concerns by securely sharing limited information about reported concerns and, where appropriate, contact the original community for additional context.
+**:gray-background[Solution -]** This enables even local community leaders to identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, gives them a point of contact for additional context.
 
 **:gray-background[Challenges -]** International privacy laws make sharing sensitive allegations difficult, so we intentionally limit the information we provide to reduce legal and privacy risks.
 
