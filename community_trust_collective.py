@@ -76,7 +76,7 @@ with right:
 st.text('')
 st.markdown('''**:gray-background[Problem -]** Individuals with a history of misconduct may move between global communities that are unaware of their history, and organizers lack the cross-community tools needed to track misconduct history.
 
-**:gray-background[Solution -]** This enables even local community leaders to identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, gives them a point of contact for additional context.
+**:gray-background[Solution -]** This tool enables even local community leaders to identify potential safety concerns by securely sharing limited information about reported misconduct and, where appropriate, gives them a point of contact for additional context.
 
 **:gray-background[Challenges -]** International privacy laws make sharing sensitive allegations difficult, so we intentionally limit the information we provide to reduce legal and privacy risks.
 
