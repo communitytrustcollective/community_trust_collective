@@ -199,7 +199,7 @@ It is an imperfect tradeoff. **We cannot guarantee that every report is correct,
 
 ---
 
-#### There's a report about someone, should I immediately ban them?
+#### Should I immediately ban someone with a report?
 
 **No.**
 
