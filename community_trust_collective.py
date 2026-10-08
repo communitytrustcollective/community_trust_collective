@@ -199,16 +199,6 @@ It is an imperfect tradeoff. **We cannot guarantee that every report is correct,
 
 ---
 
-#### There's a report about someone, should I immediately ban them?
-
-**No.**
-
-A report means that a safety concern exists about an individual, and organizers should follow-up to match appropriate action with the severity/number of safety reports. Some cases may only warrant remedial or rehabilitative action to ensure the individual understands that the alleged conduct is not in line with a community's Code of Conduct. 
-
-(Ex. For a report about light misconduct or unsafe dancing, a signed agreement reaffirming that certain behavior is not tolerated, may be enough to allow attendance. In more numerous or serious cases, it may be prudent to deny access to shared community spaces.)
-
----
-
 #### How it works
 
 **Report → Review → Limit → Connect → Decide**
