@@ -584,11 +584,11 @@ The goal is to balance two legitimate interests: **protecting people participati
 
 
 
-redacted_df = (load_database()
-                .with_columns(pl.lit("***************").alias("Name"),
-                              pl.lit("*****").alias("WSDC_number"),
-                             ))
-
+#redacted_df = (load_database()
+#                .with_columns(pl.lit("***************").alias("Name"),
+#                              pl.lit("*****").alias("WSDC_number"),
+#                             ))
+redacted_df =
 
 
 
@@ -598,7 +598,7 @@ access_code = st.text_input(
 )
 
 if access_code.strip() not in ACCESS_CODES:
-    st.dataframe(redacted_df, 
+    st.dataframe(redacted_df.head(2), 
 column_config={"Name": st.column_config.Column(width=100), 
                "WSDC_number": st.column_config.Column(width=100, alignment="center"),
                "Reports": st.column_config.Column(width=60, alignment="center"),
