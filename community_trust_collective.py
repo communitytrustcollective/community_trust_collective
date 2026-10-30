@@ -584,11 +584,11 @@ The goal is to balance two legitimate interests: **protecting people participati
 
 
 
-#redacted_df = (load_database()
-#                .with_columns(pl.lit("***************").alias("Name"),
-#                              pl.lit("*****").alias("WSDC_number"),
-#                             ))
-redacted_df =
+redacted_df = (load_database()
+                .with_columns(pl.lit("***************").alias("Name"),
+                              pl.lit("*****").alias("WSDC_number"),
+                             ))
+
 
 
 
