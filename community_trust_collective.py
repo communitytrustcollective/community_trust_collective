@@ -598,7 +598,7 @@ access_code = st.text_input(
 )
 
 if access_code.strip() not in ACCESS_CODES:
-    st.dataframe(redacted_df.head(2), 
+    st.dataframe(redacted_df.head(5), 
 column_config={"Name": st.column_config.Column(width=100), 
                "WSDC_number": st.column_config.Column(width=100, alignment="center"),
                "Reports": st.column_config.Column(width=60, alignment="center"),
